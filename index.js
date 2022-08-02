@@ -15,6 +15,7 @@ import * as PostController from "./controllers/PostController.js";
 import handleValidationErrors from "./utils/handleValidationErrors.js";
 
 mongoose
+ //   .connect('mongodb+srv://admin:wwwwww@cluster0.dg0mb.mongodb.net/blog?retryWrites=true&w=majority')
     .connect(process.env.MONGODB_URI)
     .then(() => console.log('DB ok'))
     .catch((err) => console.log('DB error', err));
