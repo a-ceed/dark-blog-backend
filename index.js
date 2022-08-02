@@ -16,7 +16,7 @@ import handleValidationErrors from "./utils/handleValidationErrors.js";
 
 mongoose
     .connect(process.env.MONGODB_URL)
-    .then(() => console.log('DB ok'))
+    .then(() => console.log('DB oki'))
     .catch((err) => console.log('DB error', err));
 
 const app = express();
