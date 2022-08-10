@@ -15,8 +15,7 @@ import * as PostController from "./controllers/PostController.js";
 import handleValidationErrors from "./utils/handleValidationErrors.js";
 
 mongoose
- //   .connect('mongodb+srv://admin:wwwwww@cluster0.dg0mb.mongodb.net/blog?retryWrites=true&w=majority')
-    .connect(process.env.MONGODB_URI)
+    .connect('mongodb+srv://admin:wwwwww@cluster0.dg0mb.mongodb.net/blog?retryWrites=true&w=majority')
     .then(() => console.log('DB ok'))
     .catch((err) => console.log('DB error', err));
 
@@ -58,7 +57,8 @@ app.post('/upload', checkAuth, upload.single('image'), (req, res) => {
 });
 
 //Start Server
-app.listen(process.env.PORT || 4444, (err) => {
+//app.listen(process.env.PORT || 4444, (err) => {
+app.listen (4444, (err) => {
     if (err) {
         return console.log(err);
     }

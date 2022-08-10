@@ -1,18 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eddc0c96-7e25-4976-a62a-ed90fac19f60" name="Changes" comment="" />
+    <list default="true" id="9c04a936-164c-4478-9757-34fd2aa211ea" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.dockerignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="JavaScript File" />
-      </list>
-    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -20,8 +18,7 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2Bws9cfptAaEyAPd82oRRVmMdQP" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="2CrOL3bVhCiVhxMxQ9cWxWPAnYS" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -32,21 +29,20 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../angular-notes-popushin" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2021.3.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\git\dark-blog\models" />
-      <recent name="C:\git\dark-blog\validations" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\git\dark-blog" />
-    </key>
-  </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="npm.start">
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="start:dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -59,6 +55,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.start" />
         <item itemvalue="npm.start:dev" />
       </list>
     </recent_temporary>
@@ -66,26 +63,15 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="eddc0c96-7e25-4976-a62a-ed90fac19f60" name="Changes" comment="" />
-      <created>1657828367859</created>
+      <changelist id="9c04a936-164c-4478-9757-34fd2aa211ea" name="Changes" comment="" />
+      <created>1659557177710</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1657828367859</updated>
-      <workItem from="1657828367859" duration="7542000" />
-      <workItem from="1657883980892" duration="18669000" />
-      <workItem from="1658008958251" duration="4241000" />
-      <workItem from="1658054169036" duration="5311000" />
-      <workItem from="1658087890083" duration="7277000" />
-      <workItem from="1658162677162" duration="1499000" />
-      <workItem from="1658413472233" duration="1952000" />
-      <workItem from="1658748420057" duration="29000" />
-      <workItem from="1658755326121" duration="599000" />
-      <workItem from="1658774797174" duration="2856000" />
-      <workItem from="1658829689353" duration="3096000" />
-      <workItem from="1658913637184" duration="1566000" />
-      <workItem from="1658998596272" duration="12689000" />
-      <workItem from="1659087074946" duration="5615000" />
-      <workItem from="1659373624111" duration="11201000" />
+      <updated>1659557177710</updated>
+      <workItem from="1659557178836" duration="3814000" />
+      <workItem from="1659693025805" duration="3633000" />
+      <workItem from="1659810566900" duration="1859000" />
+      <workItem from="1659968160277" duration="627000" />
     </task>
     <servers />
   </component>
