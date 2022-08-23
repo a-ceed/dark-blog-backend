@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c04a936-164c-4478-9757-34fd2aa211ea" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.dockerignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nginx-conf/nginx.conf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,6 +71,10 @@
       <workItem from="1659693025805" duration="3633000" />
       <workItem from="1659810566900" duration="1859000" />
       <workItem from="1659968160277" duration="627000" />
+      <workItem from="1660160092234" duration="4007000" />
+      <workItem from="1660216970520" duration="63000" />
+      <workItem from="1660584094776" duration="1132000" />
+      <workItem from="1660726393390" duration="604000" />
     </task>
     <servers />
   </component>
